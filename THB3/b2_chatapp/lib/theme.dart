@@ -17,8 +17,8 @@ ThemeData lightThemeData(BuildContext context) {
     ),
     bottomNavigationBarTheme: BottomNavigationBarThemeData(
       backgroundColor: Colors.white,
-      selectedItemColor: kContentColorLightTheme.withOpacity(0.7),
-      unselectedItemColor: kContentColorLightTheme.withOpacity(0.32),
+      selectedItemColor: kContentColorLightTheme.withOpacity(.7),
+      unselectedItemColor: kContentColorLightTheme.withOpacity(.32),
       selectedIconTheme: const IconThemeData(color: kPrimaryColor),
       showUnselectedLabels: true,
     ),
@@ -41,7 +41,7 @@ ThemeData darkThemeData(BuildContext context) {
     bottomNavigationBarTheme: BottomNavigationBarThemeData(
       backgroundColor: kContentColorLightTheme,
       selectedItemColor: Colors.white70,
-      unselectedItemColor: kContentColorDarkTheme.withOpacity(0.32),
+      unselectedItemColor: kContentColorDarkTheme.withOpacity(.32),
       selectedIconTheme: const IconThemeData(color: kPrimaryColor),
       showUnselectedLabels: true,
     ),
